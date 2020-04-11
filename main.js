@@ -31,4 +31,10 @@ $(document).ready(() => {
 
     // Select first element
     $(".classFirst:first").click(() => console.log("First Item clicked"))
+
+    // Odd/even Element Selector
+    $(".classFirst:odd").click(() => console.log("odd Item clicked"))
+    $(".classFirst:even").click(() => console.log("even Item clicked"))
+
+    $("tr:odd").css("background-color", "red")
 });
