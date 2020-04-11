@@ -27,5 +27,8 @@ $(document).ready(() => {
     // $(".first").click(() => console.log("Class is clicked"))
 
     // Multiple Item Selector
-    $(".classFirst, #first").click(() => console.log("Anything clicked"))
+    // $(".classFirst, #first").click(() => console.log("Anything clicked"))
+
+    // Select first element
+    $(".classFirst:first").click(() => console.log("First Item clicked"))
 });
