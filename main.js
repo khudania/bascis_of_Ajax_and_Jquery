@@ -21,5 +21,8 @@ $(document).ready(() => {
     // });
 
     // ID Selector
-    $("#first").click(() => console.log("Div is clicked"))
+    $("#first").click(() => console.log("ID is clicked"))
+
+    // CLASS Selector
+    $(".first").click(() => console.log("Class is clicked"))
 });
