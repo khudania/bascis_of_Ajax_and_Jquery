@@ -21,8 +21,11 @@ $(document).ready(() => {
     // });
 
     // ID Selector
-    $("#first").click(() => console.log("ID is clicked"))
+    // $("#first").click(() => console.log("ID is clicked"))
 
     // CLASS Selector
-    $(".first").click(() => console.log("Class is clicked"))
+    // $(".first").click(() => console.log("Class is clicked"))
+
+    // Multiple Item Selector
+    $(".classFirst, #first").click(() => console.log("Anything clicked"))
 });
