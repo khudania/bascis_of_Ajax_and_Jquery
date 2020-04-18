@@ -60,4 +60,8 @@ $(document).ready(() => {
         }
     );
 
+    //Contains
+
+    $("p:contains(!)").css("background-color", "yellow");
+
 });
