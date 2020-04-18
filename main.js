@@ -53,4 +53,11 @@ $(document).ready(() => {
     );
 
 
+    //Types
+    $(":button").click(
+        function () {
+            console.log("button is clicked")
+        }
+    );
+
 });
