@@ -45,4 +45,12 @@ $(document).ready(() => {
     //Children
     $("div > Span").css("color", "red");
 
+    //Attributes
+    $("div[target='_blank']").click(
+        function () {
+            console.log("Target is blank")
+        }
+    );
+
+
 });
