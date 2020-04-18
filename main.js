@@ -40,4 +40,9 @@ $(document).ready(() => {
 
     // Selecting Element and Class
     $("p.classFirst").click(() => console.log("Class is clicked"))
+
+
+    //Children
+    $("div > Span").css("color", "red");
+
 });
